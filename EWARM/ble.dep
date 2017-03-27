@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3329254777</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Library\device\nrf51.h</file>
+      <file>$PROJ_DIR$\..\Library\device\nrf.h</file>
+      <file>$PROJ_DIR$\..\Library\libraries\util\app_error.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_adc.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mx25.pbi</file>
+      <file>$PROJ_DIR$\..\Library\libraries\util\app_error_weak.h</file>
+      <file>$PROJ_DIR$\..\Library\libraries\util\nrf_assert.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\Library\device\compiler_abstraction.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm0.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nrf_adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_nrf51.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mx25.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\Library\libraries\util\nordic_common.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_nrf51.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\List\ble.map</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\iar_startup_nrf51.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\Library\drivers_nrf\hal\nrf_peripherals.h</file>
+      <file>$PROJ_DIR$\..\Library\libraries\util\sdk_errors.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_nrf51.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\Library\toolchain\system_nrf51.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\Library\drivers_nrf\hal\nrf_adc.h</file>
+      <file>$PROJ_DIR$\..\Library\drivers_nrf\hal\nrf_adc.c</file>
+      <file>$PROJ_DIR$\ble.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\simple_uart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\simple_uart.o</file>
+      <file>$PROJ_DIR$\..\User\APP\mx25.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\ble.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\Library\device\nrf51_deprecated.h</file>
+      <file>$PROJ_DIR$\..\Library\libraries\simple_uart\simple_uart.h</file>
+      <file>$PROJ_DIR$\..\Library\libraries\simple_uart\simple_uart.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\Library\drivers_nrf\nrf_soc_nosd\nrf_error.h</file>
+      <file>$PROJ_DIR$\..\Library\device\nrf51_bitfields.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
+      <file>$PROJ_DIR$\..\Library\device\nrf51822_peripherals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\ble.out</file>
+      <file>$PROJ_DIR$\..\User\APP\mx25.c</file>
+      <file>$PROJ_DIR$\..\User\Main\iar_startup_nrf51.s</file>
+      <file>$PROJ_DIR$\..\Library\drivers_nrf\hal\nrf_gpio.h</file>
+      <file>$PROJ_DIR$\..\Library\toolchain\system_nrf51.c</file>
+      <file>$PROJ_DIR$\..\User\Main\sdk_config.h</file>
+      <file>$PROJ_DIR$\..\Library\drivers_nrf\delay\nrf_delay.h</file>
+      <file>$PROJ_DIR$\..\User\Main\main.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 58 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Library\drivers_nrf\hal\nrf_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 10 13 25 29 30 27 34 3 41 53 14 50 16 1 5 11 9 56 0 47 35 21 54 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 34 16 10 29 5 15 41 11 9 3 30 56 1 0 14 25 21 50 54 27 35 53 47 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Library\libraries\simple_uart\simple_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 15 35 29 47 1 22 61 10 21 54 50 3 48 41 0 25 57 36 51 64 5 11 9 53 13 14 27 8 34 30 56 2 31 7 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 10 29 5 15 41 11 9 1 0 14 21 50 54 27 35 53 47 13 48 34 51 3 57 64 61 30 56 8 2 31 52 63 22 7 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\ble.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 39 28 46 20 4 42 19 44 33 24 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\APP\mx25.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 53 50 64 36 10 11 29 7 3 8 13 14 21 5 9 54 25 34 52 61 30 0 47 35 27 15 41 31 43 56 2 51 22 57 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 61 1 0 14 25 10 29 5 15 41 11 9 21 50 54 27 35 53 47 13 30 56 8 2 51 3 57 34 31 52 63 22 7 36 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\Main\iar_startup_nrf51.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Library\toolchain\system_nrf51.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 25 10 1 29 15 53 35 21 54 50 34 5 11 9 0 47 14 27 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 10 29 5 15 41 11 9 34 1 0 14 21 50 54 27 35 53 47 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\User\Main\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 25 29 1 34 13 15 30 27 50 48 53 14 41 3 64 37 8 36 0 47 35 21 5 11 9 54 51 22 52 61 56 2 31 7 57 63 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 1 0 14 25 10 29 5 15 41 11 9 21 50 54 27 35 53 47 13 30 56 8 2 51 3 57 34 31 52 63 22 7 36 64 48 37 16</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
