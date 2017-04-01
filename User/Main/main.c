@@ -48,5 +48,5 @@ void main()
     }
 }
 
-void branch9_add()
+void branch10_add()
 {}
