@@ -23,6 +23,14 @@ void  get_adc(void)
    dat = dat * 1200 * 6 / 1024;
    printf("volt is %d\r\n",dat);
 }
+void test(void)
+{
+  //
+}
+void test2()
+{}
+void hahah()
+{}
 void main()
 {
     nrf_gpio_cfg_output(19);
