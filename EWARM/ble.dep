@@ -149,10 +149,6 @@
           <file> 62</file>
         </tool>
         <tool>
-          <name>ICCARM</name>
-          <file> 40</file>
-        </tool>
-        <tool>
           <name>__cstat</name>
           <file> 5</file>
         </tool>
