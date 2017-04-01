@@ -62,6 +62,6 @@ void main()
         nrf_gpio_pin_toggle(19);
         //get_adc();
         nrf_delay_ms(300);   
-        printf("hello...\r\n");
+        printf("hi...\r\n");
     }
 }
