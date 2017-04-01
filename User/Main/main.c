@@ -80,3 +80,5 @@ void main()
 }
 void add()
 {}
+void add1()
+{}
