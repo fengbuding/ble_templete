@@ -78,8 +78,5 @@ void main()
         printf("hi...\r\n");
     }
 }
-
-
-
-void branch8_add()
+void add()
 {}
