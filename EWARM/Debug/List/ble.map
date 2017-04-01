@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.80.2.11947/W32 for ARM                01/Apr/2017  11:26:58
+# IAR ELF Linker V7.80.2.11947/W32 for ARM                01/Apr/2017  12:59:48
 # Copyright 2007-2016 IAR Systems AB.
 #
 #    Output file  =  
@@ -45,7 +45,7 @@ initialize by copy { rw };
   .intvec            ro code  0x00000000   0xc0  iar_startup_nrf51.o [1]
                             - 0x000000c0   0xc0
 
-"P1":                                     0x7d9
+"P1":                                     0x7d5
   .text              ro code  0x000000c0  0x180  xprintftiny.o [3]
   .text              ro code  0x00000240   0xae  I32DivModFast.o [4]
   .text              ro code  0x000002ee   0x10  strlen.o [4]
@@ -71,8 +71,10 @@ initialize by copy { rw };
   .text              ro code  0x00000800   0x16  xprout.o [3]
   .text              ro code  0x00000816    0x2  iar_startup_nrf51.o [1]
   .text              ro code  0x00000818   0x10  putchar.o [3]
-  .rodata            const    0x00000828    0xc  main.o [1]
-  .text              ro code  0x00000834    0xc  cstartup_M.o [4]
+  .text              ro code  0x00000828    0xc  cstartup_M.o [4]
+  .rodata            const    0x00000834    0x8  main.o [1]
+  .text              ro code  0x0000083c    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0000083e    0x2  iar_startup_nrf51.o [1]
   .text              ro code  0x00000840    0x2  iar_startup_nrf51.o [1]
   .text              ro code  0x00000842    0x2  iar_startup_nrf51.o [1]
   .text              ro code  0x00000844    0x2  iar_startup_nrf51.o [1]
@@ -96,12 +98,10 @@ initialize by copy { rw };
   .text              ro code  0x00000868    0x2  iar_startup_nrf51.o [1]
   .text              ro code  0x0000086a    0x2  iar_startup_nrf51.o [1]
   .text              ro code  0x0000086c    0x2  iar_startup_nrf51.o [1]
-  .text              ro code  0x0000086e    0x2  iar_startup_nrf51.o [1]
-  .text              ro code  0x00000870    0x2  iar_startup_nrf51.o [1]
-  .rodata            const    0x00000872    0x0  zero_init3.o [4]
-  .rodata            const    0x00000872    0x0  packbits_init_single.o [4]
-  Initializer bytes  const    0x00000872   0x27  <for P2-1>
-                            - 0x00000899  0x7d9
+  .rodata            const    0x0000086e    0x0  zero_init3.o [4]
+  .rodata            const    0x0000086e    0x0  packbits_init_single.o [4]
+  Initializer bytes  const    0x0000086e   0x27  <for P2-1>
+                            - 0x00000895  0x7d5
 
 "P2", part 1 of 3:                         0x44
   P2-1                        0x20000000   0x44  <Init block>
@@ -131,7 +131,7 @@ Zero (__iar_zero_init3)
 
 Copy/packbits (__iar_packbits_init_single3)
     1 source range, total size 0x27 (57% of destination):
-          0x00000872  0x27
+          0x0000086e  0x27
     1 destination range, total size 0x44:
           0x20000000  0x44
 
@@ -145,11 +145,11 @@ Copy/packbits (__iar_packbits_init_single3)
     ------                  -------  -------  -------
 C:\Users\T460P\Desktop\ble_templete\EWARM\Debug\Obj: [1]
     iar_startup_nrf51.o         296
-    main.o                      252       12
+    main.o                      252        8
     simple_uart.o               308
     system_nrf51.o              372        2        4
     -------------------------------------------------
-    Total:                    1 228       14        4
+    Total:                    1 228       10        4
 
 command line: [2]
     -------------------------------------------------
@@ -186,7 +186,7 @@ shb_l.a: [5]
 
     Linker created                        32    2 048
 -----------------------------------------------------
-    Grand Total:              2 118       83    2 196
+    Grand Total:              2 118       79    2 196
 
 
 *******************************************************************************
@@ -218,7 +218,7 @@ __iar_Stdout            0x20000004   0x40  Data  Gb  xfiles.o [3]
 __iar_data_init3        0x00000771   0x28  Code  Gb  data_init.o [4]
 __iar_packbits_init_single3
                         0x00000709   0x3c  Code  Gb  packbits_init_single.o [4]
-__iar_program_start     0x00000835         Code  Gb  cstartup_M.o [4]
+__iar_program_start     0x00000829         Code  Gb  cstartup_M.o [4]
 __iar_zero_init3        0x000006cd   0x3c  Code  Gb  zero_init3.o [4]
 __low_level_init        0x000007d3    0x4  Code  Gb  low_level_init.o [3]
 __vector_table          0x00000000         Data  Gb  iar_startup_nrf51.o [1]
@@ -261,7 +261,7 @@ strlen                  0x000002ef   0x10  Code  Gb  strlen.o [4]
 [5] = shb_l.a
 
   2 118 bytes of readonly  code memory
-     83 bytes of readonly  data memory
+     79 bytes of readonly  data memory
   2 196 bytes of readwrite data memory
 
 Errors: none
