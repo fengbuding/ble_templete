@@ -8,6 +8,8 @@
 
 void branch_add()
 {}
+void branch1_add()
+{}
 nrf_adc_config_t adc;
 void adc_init(void)
 {
