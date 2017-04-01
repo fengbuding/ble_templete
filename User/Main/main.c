@@ -14,6 +14,8 @@ void branch2_add()
 {}
 void branch3_add()
 {}
+void branch4_add()
+{}
 nrf_adc_config_t adc;
 void adc_init(void)
 {
