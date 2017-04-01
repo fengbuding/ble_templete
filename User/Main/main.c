@@ -10,6 +10,10 @@ void branch_add()
 {}
 void branch1_add()
 {}
+void branch2_add()
+{}
+void branch3_add()
+{}
 nrf_adc_config_t adc;
 void adc_init(void)
 {
